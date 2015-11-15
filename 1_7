@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float inuser;
+    cout<<"Enter the number of Gallons:"<<endl;
+    cin>>inuser;
+    float conv=inuser/7.481;
+    cout<<"Equivalent = "<<conv<<endl;
+    return(0);
+}
